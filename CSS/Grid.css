@@ -1,0 +1,39 @@
+.grid-container {
+    display: grid;
+    align-content: center;
+    grid-template-columns: repeat(6, 100px);
+    grid-gap: 10px;
+    padding: 10px;
+    padding-top: 100px;
+    
+}
+.q {
+    grid-column: 1/6;
+    height: auto;
+    background-color: rgb(47, 50, 53);
+    width: auto;
+        
+}
+.q iframe {
+    border-style: solid;
+    color: white;
+}
+.p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    grid-column: 14/15;
+    
+    border-style: solid;
+}
+.b {
+    display:grid;
+    margin-left: auto;
+    margin-right: auto; 
+    width:400px;
+    height:40px;
+    
+}
+
+
