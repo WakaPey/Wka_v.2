@@ -51,4 +51,21 @@ og jeg hviste ikke hvordan jeg skullle fikse det så koden ble sånn at hvis jeg
     height: auto;
 }
 
+.kjema1 {
+    display: grid;
+    height: 400px;
+    width: 400px;
+}
+.kjema2 {
+    display: grid;
+    height: 400px;
+    width: 400px;
+}
+.kjema3 {
+    display: grid;
+    height: 400px;
+    width: 400px;
+}
+
+
 
