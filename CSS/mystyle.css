@@ -7,13 +7,15 @@ margin: 0;
 
 
 
+
+/* starten av nav bar */
 ul {
   list-style-type: none;
   margin: 0;
   padding: -10px;
   overflow: hidden;
   background-color:red;
-  position: fixed;
+  position: relative;
   top: 0;
   width: 100%;
 }
@@ -34,11 +36,8 @@ li a:hover:not(.active) {
   background-color:white;
   color:black;
 }
-.bar {
-  height: 100%;
-  background-color:red;
-  width: 200px;
-}
+
+/*Slutten av navbar og starten på selve streken(Right side bar)*/
 
 .right-side-bar{
   background-color: red;
@@ -51,15 +50,13 @@ li a:hover:not(.active) {
   height: 100%;
   }
 
+
+  /*Mitt forsøk på å flytte rundt på overskriften*/
   .H2 {
-    padding-right: 50px;
+    padding-left: 30px;
   }
 
-  .Hmain {
-    color: white;
-    padding-right: 50px;
-    position: absolute;
-  }
+  
 
 
 
